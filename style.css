@@ -1,0 +1,146 @@
+@media screen and (min-width: 900px) {
+    article {
+      padding: 1rem 3rem;
+    }
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  #header {
+      
+      text-align: center;
+      color: grey;
+      background: transparent;
+  
+  }
+  
+  #header-img {
+      border: 1px solid grey;
+      border-radius: 25px 25px;
+      margin-top: 10px
+  
+      height: 300px;
+      width: 200px;
+  }
+  
+  #nav-bar {
+      height: 50px;
+      width: 100%;
+      padding-bottom: 10px;
+      text-align: center; 
+      position: relative;  
+      align-content: center;
+      font-size: 30px;
+      font-style: bold;
+      position: fixed;
+  }
+  
+  #form {
+      text-align: center;
+      padding-bottom: 25px;
+      padding-top: 25px;
+      font-family: cursive;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  
+  #email {
+      height: 25px;
+      width: 100px;
+  }
+  . {
+  
+  }
+  #video {
+      padding: 33px 33px 33px 33px;
+  }
+  .nav-link {
+      color: black;
+      font-size: 20px;
+      font-family: cursive;
+      font-weight: bold;
+      font-style: italic;
+  }
+  
+  .flex-container {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+  }
+  .btn {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: grey;
+      background-color: transparent 20;
+  }
+  caption {
+      font-family: cursive;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  li {
+      text-align: center;
+      display: inline;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+      background-color: #555;
+      color: white;
+  }
+  
+  footer {
+      @media (max-width: 500px)
+      font-family: cursive;
+      font-weight: bold;
+      font-size: 15px;
+      width: 100%;
+      background-color: grey;
+      text-align: center;
+      position: relative;
+  }
+  nav {
+    font-weight: 400;
+    
+    @media (max-width: 650px) {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 50px;
+      
+      li {
+       padding-bottom: 5px; 
+      }
+    }
+  }
+  body {
+      
+      background-color: lightgreen;
+      font-family: serif;
+  }
+  
